@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang = 'en'>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <link href = "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="https://d3js.org/d3.v3.min.js"></script>
+  <script src = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- <script src = "//code.jquery.com/jquery-1.11.1.min.js"></script>  -->
+  <script type="text/javascript" src="static/index.js"></script>
+  <link href="static/index.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div class="container-flude">
+    <div class="msg-group center">
+      <div class="card">
+        <div class="card-body">
+          <h6 class="card-subtitle mb-2 text-muted text-left">Chatbot-Pipi</h6>
+          <p class="card-text float-left">Hi, I'm Chatbot-Pipi, your StackOverflow chatbot assistant.</p>
+          <p class="card-text float-left">1. Please select Programming Language you want to enquire (bottom-left corner). </p>
+          <p class="card-text float-left">2. Type your question.</p>
+          <!-- <p class = "card-text float-left">< 0 > for python     < 1 > for c++      < 2 > for c# </p>
+          <p class = "card-text float-left">< 3 > for java       < 4 > for ios      < 5 > for android</p>
+          <p class = "card-text float-left">< 6 > for html       < 7 > for jquery   < 8 > for php</p>
+          <p class = "card-text float-left">< 9 > for javascript</p> -->
+        </div>
+      </div>
+    </div>
+
+    <div class="input-group">
+      <!-- <select id = 'model'>
+        <option value="">Select Model</option>
+        <option value="LSI">LSI</option>
+        <option value="W2V">Word2Vec</option>
+      </select> -->
+      <!-- <h6>Select your favorite fruit:</h6> -->
+      <select id="language" onchange="language()">
+        <option value=''>select language</option>
+        <option value="python">python</option>
+        <option value="c++">c++</option>
+        <option value="javascript">javascript</option>
+        <option value="c#">c#</option>
+        <option value="java">java</option>
+        <option value="html">html</option>
+        <option value="ios">ios</option>
+        <option value="jquery">jquery</option>
+        <option value="php">php</option>
+        <option value="android">android</option>
+      </select>
+      <input id='input-box' class="form-control" rows="1" type="text" placeholder="Say Something..." onkeydown="if (event.keyCode ==13) document.getElementById('submit').click()"></input>
+        <span class="input-group-btn">
+          <button class="btn btn-secondary" id="submit" type="button" data-url='{{url_for('index')}}' onclick="typein()">send</button>
+        </span>
+    </div>
+  </div>
+
+
+  <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> -->
+  <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+  <script src="https://d3js.org/d3.v3.min.js"></script>
+
+
+
+</body>
+
+
+
+</html>
