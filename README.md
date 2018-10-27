@@ -6,7 +6,7 @@ Amateur coders who are stuck in coding could ask the chatbot for help and direct
 
 10 major programming languages have been supported in the chatbot, users can ask any questions they have, then try and improve themselves based on the answers, even detail codes from chatbot. 
 
-For user friendliness and convenience, a more concise user interface was developed. All Python codes discussed in the previous section were grouped into a Python class, which are used to process the data and build the models for both LSA and Word2Vec methods. In addition, JavaScript, HTML and CSS were employed in designing the chatbot user interface. 
+For user friendliness and convenience, a more concise user interface was developed. All Python codes discussed in the previous section were grouped into a Python class, which are used to process the data and build the models for Word2Vec methods. In addition, JavaScript, HTML and CSS were employed in designing the chatbot user interface. 
 
 First, the user is required to choose their programming language of interest from drop-down menu. The drop-down menu can be found at the bottom left corner of the user interface. Then, the user proceeds to insert their question. Upon clicking on the “Send” button, the Chatbot will retrieve and display the answer, which is selected based on the highest similarity between the question bank and user’s question.
 
