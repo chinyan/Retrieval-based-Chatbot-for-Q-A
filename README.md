@@ -1,4 +1,4 @@
-# Retrieval-based-Chatbot-for-Q-A
+# Retrieval-based Chatbot for Stack Overflow Q&A
 
 A pedagogical chatbot could help people to self-learn coding. 
 
