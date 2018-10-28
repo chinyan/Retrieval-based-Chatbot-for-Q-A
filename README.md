@@ -12,14 +12,14 @@ First, the user is required to choose their programming language of interest fro
 
 ![Screenshot](most_relevant.png)
 
-## If the user is not satisfied with provided answer, the user gets to choose to read either one of the next five most relevant questions.
+#### If the user is not satisfied with provided answer, the user gets to choose to read either one of the next five most relevant questions.
 
 ![Screenshot](choose_top_five.png)
 
-## Once the user has read through the other suggested questions and answer, the user can proceed to ask another question or rephrasing their question to get more relevant results.
+#### Once the user has read through the other suggested questions and answer, the user can proceed to ask another question or rephrasing their question to get more relevant results.
 
 ![Screenshot](ask_another_question.png)
 
-## In addition, to improve user experience when interacting with chatbots, simple greetings to the user has be implemented as well.
+#### In addition, to improve user experience when interacting with chatbots, simple greetings to the user has be implemented as well.
 
 ![Screenshot](simple_greetings.png)
