@@ -9,9 +9,13 @@ Amateur coders who are stuck in coding could ask the chatbot for help and direct
 For user friendliness and convenience, a more concise user interface was developed. All Python codes discussed in the previous section were grouped into a Python class, which are used to process the data and build the models for Word2Vec methods. In addition, JavaScript, HTML and CSS were employed in designing the chatbot user interface. 
 
 First, the user is required to choose their programming language of interest from drop-down menu. The drop-down menu can be found at the bottom left corner of the user interface. Then, the user proceeds to insert their question. Upon clicking on the “Send” button, the Chatbot will retrieve and display the answer, which is selected based on the highest similarity between the question bank and user’s question.
+![Screenshot](most_relevant.png)
 
 If the user is not satisfied with provided answer, the user gets to choose to read either one of the next five most relevant questions.
+![Screenshot](choose_top_five.png)
 
 Once the user has read through the other suggested questions and answer, the user can proceed to ask another question or rephrasing their question to get more relevant results.
+![Screenshot](ask_another_question.png)
 
 In addition, to improve user experience when interacting with chatbots, simple greetings to the user has be implemented as well.
+![Screenshot](simple_greetings.png)
