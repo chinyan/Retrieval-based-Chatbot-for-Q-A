@@ -2,6 +2,9 @@
 
 A pedagogical chatbot could help people to self-learn coding. 
 
+The CSV file used to train the chatbot can be use to download from this link: 
+https://www.dropbox.com/s/2vxxxckkfwvfcfq/StackOverflow.csv?dl=0
+
 Amateur coders who are stuck in coding could ask the chatbot for help and directions and the chatbot could return answers that could directly help the users in finding a solution. 
 
 10 major programming languages have been supported in the chatbot, users can ask any questions they have, then try and improve themselves based on the answers, even detail codes from chatbot. 
