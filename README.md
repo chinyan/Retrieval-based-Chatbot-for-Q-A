@@ -5,7 +5,7 @@ A pedagogical chatbot could help people to self-learn coding.
 Points to note:
 1. Ensure the CSV file, 'StackOverflow.csv', has been downloaded into the './Data/' folder. The download link is: 
 https://www.dropbox.com/s/2vxxxckkfwvfcfq/StackOverflow.csv?dl=0
-2. Run the Jupyter Notebook, './Data/StackOverflow_Word2Vec.ipynb', to generate the respective JSON files.
+2. Run all cells in the Jupyter Notebook, './Data/StackOverflow_Word2Vec.ipynb', to generate the respective JSON files.
 3. Run chatbot.py to start UI.
 4. Go to any web browser and type http://localhost:8000/
 
